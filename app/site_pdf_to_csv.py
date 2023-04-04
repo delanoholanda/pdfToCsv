@@ -14,7 +14,7 @@ from waitress import serve
 
 app = Flask(__name__)
 
-mododebug = True
+mododebug = False
 
 # obtém o caminho absoluto do diretório atual
 DIRETORIO_ATUAL = os.path.dirname(os.path.abspath(__file__))  # c:\Users\NTIC\Desktop\Desenvolvimento\Python\pdfToCsv\app
